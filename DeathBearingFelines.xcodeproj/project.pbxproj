@@ -16,6 +16,10 @@
 		D60A7C8F1B40F71300989AC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60A7C8E1B40F71300989AC3 /* Images.xcassets */; };
 		D60A7C921B40F71300989AC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60A7C901B40F71300989AC3 /* LaunchScreen.xib */; };
 		D60A7C9E1B40F71300989AC3 /* DeathBearingFelinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7C9D1B40F71300989AC3 /* DeathBearingFelinesTests.m */; };
+		D60A7CA81B40FAA400989AC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60A7CA71B40FAA400989AC3 /* CoreGraphics.framework */; };
+		D60A7CAA1B40FAAB00989AC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60A7CA91B40FAAB00989AC3 /* UIKit.framework */; };
+		D60A7CAC1B40FAB300989AC3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60A7CAB1B40FAB300989AC3 /* SpriteKit.framework */; };
+		D60A7CAE1B40FABB00989AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60A7CAD1B40FABB00989AC3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		D60A7C971B40F71300989AC3 /* DeathBearingFelinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeathBearingFelinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60A7C9C1B40F71300989AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D60A7C9D1B40F71300989AC3 /* DeathBearingFelinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeathBearingFelinesTests.m; sourceTree = "<group>"; };
+		D60A7CA71B40FAA400989AC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D60A7CA91B40FAAB00989AC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D60A7CAB1B40FAB300989AC3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		D60A7CAD1B40FABB00989AC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60A7CAE1B40FABB00989AC3 /* Foundation.framework in Frameworks */,
+				D60A7CAC1B40FAB300989AC3 /* SpriteKit.framework in Frameworks */,
+				D60A7CAA1B40FAAB00989AC3 /* UIKit.framework in Frameworks */,
+				D60A7CA81B40FAA400989AC3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +116,10 @@
 		D60A7C7C1B40F71200989AC3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D60A7CAD1B40FABB00989AC3 /* Foundation.framework */,
+				D60A7CAB1B40FAB300989AC3 /* SpriteKit.framework */,
+				D60A7CA91B40FAAB00989AC3 /* UIKit.framework */,
+				D60A7CA71B40FAA400989AC3 /* CoreGraphics.framework */,
 				D60A7C7D1B40F71200989AC3 /* Info.plist */,
 				D60A7C7E1B40F71200989AC3 /* main.m */,
 			);
