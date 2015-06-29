@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60A7C7F1B40F71200989AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7C7E1B40F71200989AC3 /* main.m */; };
+		D60A7C821B40F71200989AC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7C811B40F71200989AC3 /* AppDelegate.m */; };
+		D60A7C851B40F71200989AC3 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7C841B40F71200989AC3 /* GameScene.m */; };
+		D60A7C871B40F71200989AC3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D60A7C861B40F71200989AC3 /* GameScene.sks */; };
+		D60A7C8A1B40F71200989AC3 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7C891B40F71200989AC3 /* GameViewController.m */; };
+		D60A7C8D1B40F71200989AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60A7C8B1B40F71200989AC3 /* Main.storyboard */; };
+		D60A7C8F1B40F71300989AC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60A7C8E1B40F71300989AC3 /* Images.xcassets */; };
+		D60A7C921B40F71300989AC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60A7C901B40F71300989AC3 /* LaunchScreen.xib */; };
+		D60A7C9E1B40F71300989AC3 /* DeathBearingFelinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D60A7C9D1B40F71300989AC3 /* DeathBearingFelinesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60A7C981B40F71300989AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60A7C711B40F71200989AC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60A7C781B40F71200989AC3;
+			remoteInfo = DeathBearingFelines;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D60A7C791B40F71200989AC3 /* DeathBearingFelines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathBearingFelines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60A7C7D1B40F71200989AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60A7C7E1B40F71200989AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60A7C801B40F71200989AC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D60A7C811B40F71200989AC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D60A7C831B40F71200989AC3 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D60A7C841B40F71200989AC3 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D60A7C861B40F71200989AC3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D60A7C881B40F71200989AC3 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D60A7C891B40F71200989AC3 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D60A7C8C1B40F71200989AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60A7C8E1B40F71300989AC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D60A7C911B40F71300989AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D60A7C971B40F71300989AC3 /* DeathBearingFelinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeathBearingFelinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60A7C9C1B40F71300989AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60A7C9D1B40F71300989AC3 /* DeathBearingFelinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeathBearingFelinesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60A7C761B40F71200989AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60A7C941B40F71300989AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60A7C701B40F71200989AC3 = {
+			isa = PBXGroup;
+			children = (
+				D60A7C7B1B40F71200989AC3 /* DeathBearingFelines */,
+				D60A7C9A1B40F71300989AC3 /* DeathBearingFelinesTests */,
+				D60A7C7A1B40F71200989AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D60A7C7A1B40F71200989AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60A7C791B40F71200989AC3 /* DeathBearingFelines.app */,
+				D60A7C971B40F71300989AC3 /* DeathBearingFelinesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60A7C7B1B40F71200989AC3 /* DeathBearingFelines */ = {
+			isa = PBXGroup;
+			children = (
+				D60A7C801B40F71200989AC3 /* AppDelegate.h */,
+				D60A7C811B40F71200989AC3 /* AppDelegate.m */,
+				D60A7C831B40F71200989AC3 /* GameScene.h */,
+				D60A7C841B40F71200989AC3 /* GameScene.m */,
+				D60A7C861B40F71200989AC3 /* GameScene.sks */,
+				D60A7C881B40F71200989AC3 /* GameViewController.h */,
+				D60A7C891B40F71200989AC3 /* GameViewController.m */,
+				D60A7C8B1B40F71200989AC3 /* Main.storyboard */,
+				D60A7C8E1B40F71300989AC3 /* Images.xcassets */,
+				D60A7C901B40F71300989AC3 /* LaunchScreen.xib */,
+				D60A7C7C1B40F71200989AC3 /* Supporting Files */,
+			);
+			path = DeathBearingFelines;
+			sourceTree = "<group>";
+		};
+		D60A7C7C1B40F71200989AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60A7C7D1B40F71200989AC3 /* Info.plist */,
+				D60A7C7E1B40F71200989AC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D60A7C9A1B40F71300989AC3 /* DeathBearingFelinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D60A7C9D1B40F71300989AC3 /* DeathBearingFelinesTests.m */,
+				D60A7C9B1B40F71300989AC3 /* Supporting Files */,
+			);
+			path = DeathBearingFelinesTests;
+			sourceTree = "<group>";
+		};
+		D60A7C9B1B40F71300989AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60A7C9C1B40F71300989AC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60A7C781B40F71200989AC3 /* DeathBearingFelines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60A7CA11B40F71300989AC3 /* Build configuration list for PBXNativeTarget "DeathBearingFelines" */;
+			buildPhases = (
+				D60A7C751B40F71200989AC3 /* Sources */,
+				D60A7C761B40F71200989AC3 /* Frameworks */,
+				D60A7C771B40F71200989AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeathBearingFelines;
+			productName = DeathBearingFelines;
+			productReference = D60A7C791B40F71200989AC3 /* DeathBearingFelines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60A7C961B40F71300989AC3 /* DeathBearingFelinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60A7CA41B40F71300989AC3 /* Build configuration list for PBXNativeTarget "DeathBearingFelinesTests" */;
+			buildPhases = (
+				D60A7C931B40F71300989AC3 /* Sources */,
+				D60A7C941B40F71300989AC3 /* Frameworks */,
+				D60A7C951B40F71300989AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60A7C991B40F71300989AC3 /* PBXTargetDependency */,
+			);
+			name = DeathBearingFelinesTests;
+			productName = DeathBearingFelinesTests;
+			productReference = D60A7C971B40F71300989AC3 /* DeathBearingFelinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60A7C711B40F71200989AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Brexton Pham";
+				TargetAttributes = {
+					D60A7C781B40F71200989AC3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D60A7C961B40F71300989AC3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D60A7C781B40F71200989AC3;
+					};
+				};
+			};
+			buildConfigurationList = D60A7C741B40F71200989AC3 /* Build configuration list for PBXProject "DeathBearingFelines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60A7C701B40F71200989AC3;
+			productRefGroup = D60A7C7A1B40F71200989AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60A7C781B40F71200989AC3 /* DeathBearingFelines */,
+				D60A7C961B40F71300989AC3 /* DeathBearingFelinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60A7C771B40F71200989AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60A7C921B40F71300989AC3 /* LaunchScreen.xib in Resources */,
+				D60A7C8F1B40F71300989AC3 /* Images.xcassets in Resources */,
+				D60A7C871B40F71200989AC3 /* GameScene.sks in Resources */,
+				D60A7C8D1B40F71200989AC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60A7C951B40F71300989AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60A7C751B40F71200989AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60A7C8A1B40F71200989AC3 /* GameViewController.m in Sources */,
+				D60A7C821B40F71200989AC3 /* AppDelegate.m in Sources */,
+				D60A7C851B40F71200989AC3 /* GameScene.m in Sources */,
+				D60A7C7F1B40F71200989AC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60A7C931B40F71300989AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60A7C9E1B40F71300989AC3 /* DeathBearingFelinesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60A7C991B40F71300989AC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60A7C781B40F71200989AC3 /* DeathBearingFelines */;
+			targetProxy = D60A7C981B40F71300989AC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D60A7C8B1B40F71200989AC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60A7C8C1B40F71200989AC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D60A7C901B40F71300989AC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60A7C911B40F71300989AC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60A7C9F1B40F71300989AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D60A7CA01B40F71300989AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60A7CA21B40F71300989AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeathBearingFelines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D60A7CA31B40F71300989AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeathBearingFelines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D60A7CA51B40F71300989AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeathBearingFelinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeathBearingFelines.app/DeathBearingFelines";
+			};
+			name = Debug;
+		};
+		D60A7CA61B40F71300989AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DeathBearingFelinesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeathBearingFelines.app/DeathBearingFelines";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60A7C741B40F71200989AC3 /* Build configuration list for PBXProject "DeathBearingFelines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60A7C9F1B40F71300989AC3 /* Debug */,
+				D60A7CA01B40F71300989AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60A7CA11B40F71300989AC3 /* Build configuration list for PBXNativeTarget "DeathBearingFelines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60A7CA21B40F71300989AC3 /* Debug */,
+				D60A7CA31B40F71300989AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D60A7CA41B40F71300989AC3 /* Build configuration list for PBXNativeTarget "DeathBearingFelinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60A7CA51B40F71300989AC3 /* Debug */,
+				D60A7CA61B40F71300989AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60A7C711B40F71200989AC3 /* Project object */;
+}
